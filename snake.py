@@ -29,8 +29,8 @@ def snake():
     pygame.init()
     X = 525
     Y = 545
-    WINDOW_SIZE = [X,Y]
-    screen = pygame.display.set_mode((WINDOW_SIZE))
+    window_size = [X,Y]
+    screen = pygame.display.set_mode((window_size))
     pygame.display.set_caption("snake")
     font = pygame.font.Font('freesansbold.ttf', 32)
     gameover = font.render('GAME OVER', True ,red, black)
